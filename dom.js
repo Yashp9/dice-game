@@ -8,12 +8,12 @@ document.querySelector(".img2").setAttribute("src",random_img_2);
 if(dice_1<dice_2)
 {
     document.querySelector("#imgcartoon").setAttribute("src","Congratulations Happy Cartoon Man.gif");
-    document.querySelector("h1").innerHTML="player 2 won";
+    document.querySelector("h1").innerHTML="player two won!!";
 }
 if(dice_1>dice_2)
 {
     document.querySelector("#imgcartoon").setAttribute("src","Congratulations Happy Cartoon Man.gif");
-    document.querySelector("h1").innerHTML="player 1 won";
+    document.querySelector("h1").innerHTML="player one won!!";
 }
 if(dice_1==dice_2)
 {
